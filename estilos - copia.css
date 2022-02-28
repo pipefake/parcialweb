@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 231PX;
+    background-image: url(/Untitled-1-02-04.png);
+    background-size: cover;
+    margin: auto;
+    position: fixed;
+    z-index: 10;
+}
+.hero{
+    width: 100%;
+    height: 657px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.description{
+    width: 100%;
+    height: 1301,5px;
+}
+.schedules{
+    width: 100%;
+    height: 945px;
+}
+.contents{
+    width: 100%;
+    height: 977px; 
+}
+.prices{
+    width: 100%;
+    height: 893px;
+}
+.form{
+    width: 100%;
+    height: 972px;
+}
+.sponsors{
+    
+    width: 100%;
+    height: 451px;
+}
+
+footer{
+    width: 100%;
+    height: 643px;
+}
+body{
+    background-image: url(/Untitled-1-01-01.png);
+    background-size: cover;
+}
