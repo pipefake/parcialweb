@@ -1,49 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" type="text/css" href="csshake.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Poppins:ital,wght@0,700;1,100;1,300;1,500;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <nav></nav>
+        <nav>
+            <ul>
+                <li><a class="active" href="#">Inicio</a></li>
+                <li><a class="" href="#description">Descripción</a></li>
+                <li> <a href="#schedules">Programación</a> </li>
+                <li> <a href="#contents">Canciones</a> </li>
+                <li> <a href="#prices">Comprar</a> </li>
+                <li> <a href="#form">Contactenos</a> </li>
+                <li> <a href="#sponsors">Patrocinadores</a> </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section class="hero"></section>
-        <section class="description">
-            <div>
-                <h1>
-                  El mejor <br />
-                  de los festivales <br />
-                  de musica <br />
-                  para ir con  <br />
-                  tus pana <br />
-                 
-                </h1>
-              </div>
-        </section>
-        <section class="schedules"></section>
-        
-        <section class="contents">
-            
-        </section>
-        
-        <section class="prices">
-           
-        </section>
-        <section class="form">
-            
-        </section>
-        <section class="sponsors">
-            
-        </section>
-    </main>
-    <footer>
+        <section  class="hero">
 
+            <div>
+                <h1 >
+                    ¿Listos para <br />
+                    mover el... ? <br />
+
+                </h1>
+                <img class="glass shake-hard shake-freeze" src="/peach.png" alt="emoji de durazno">
+            </div>
+        </section>
+        <section id="description" class="description"> 
+            <div class="info_description"> <h1>¡Noche de Perreo intenso!</h1>
+            <h3>un total de 20 dioses del reggaeton</h3>
+        <h3>19 | Jun | 2022 en Cali <br>
+            *alrededores del autocine*
+        </h3></div>
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.1947348808744!2d-76.53583027730087!3d3.3019290899076443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e309fc1dc0a6435%3A0x89168a65b1f5a057!2sAutocine%20royal%20films!5e0!3m2!1ses!2sco!4v1646162054918!5m2!1ses!2sco" width="600" height="450"  allowfullscreen="" loading="lazy"></iframe></div>
+        </section>
+        <section id="schedules" class="schedules">
+            <h1 class="subtitulo" >Artistas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            8:00 pm a 10:00 pm
+                        </th>
+                        <th>
+                            10:00 pm a 12:00 pm
+                        </th>
+                        <th>
+                            12:00 pm a 2:00 am
+                        </th>
+                        <th>
+                            2:00 am a 4:00 am
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Maluma
+                        </td>
+                        <td>
+                            Bad Bunny
+                        </td>
+                        <td>
+                            Karol G
+                        </td>
+                        <td>
+                            Rauw Alejandro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            J Balvin
+                        </td>
+                        <td>
+                            Daddy Yankee
+                        </td>
+                        <td>
+                            Don Omar
+                        </td>
+                        <td>
+                            Myke Towers
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nicky Jam
+                        </td>
+                        <td>
+                            Becky G
+                        </td>
+                        <td>
+                            Jowell & Randy
+                        </td>
+                        <td>
+                            Ozuna
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Arcangel
+                        </td>
+                        <td>
+                            Ñejo
+                        </td>
+                        <td>
+                            Anitta
+                        </td>
+                        <td>
+                            Anuel AA
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contents" class="contents">
+            <h1 class="subtitulo" >Canciones</h1>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3I8r8nTdVI5mERRGEFGXUV?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </section>
+        <section id="prices" class="prices">
+            <h1 class="subtitulo" >Precios</h1>
+            <div class="pruba">
+                <h1>Hola</h1>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section id="form" class="form"></section>
+        <section id="sponsors" class="sponsors"></section>
+    </main>
+    <footer class="blog-footer">
+        <p>Copyright <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
     </footer>
-    
+
 </body>
+
 </html>
