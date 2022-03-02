@@ -42,7 +42,7 @@ main{
 .contents{
     width: 100%;
     height: auto; 
-    padding: 182px 0px;
+    padding: 132px 0px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -51,14 +51,179 @@ main{
 .contents>iframe{
     width: 500px;
 }
+.contenedortickets{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1030px;
+    flex-wrap: wrap;
 
+}
+.tickets{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 220px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: url(/cursor-03.png), auto;
+}
+.ticket1>h1:nth-child(1){
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #353434;
+    font-size: 45px;
+}
+
+.ticket1>h1:nth-child(2){
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #353434;
+    font-size: 45px;
+    position: absolute;
+    z-index: 3;
+    color: #f0f8ff00;
+}
+.ticket1>h1:nth-child(2):hover{
+    position: absolute;
+    z-index: 3;
+    color: #f0f8ffcc;
+    background-color: #ef5750;
+    font-size: 41px;
+}
+
+.ticket1>h1:nth-child(1):hover{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #b3121200;
+    font-size: 0px;
+}
+.ticket2>h1:nth-child(1){
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #353434;
+    font-size: 45px;
+}
+
+.ticket2>h1:nth-child(2){
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #353434;
+    font-size: 45px;
+    position: absolute;
+    z-index: 3;
+    color: #f0f8ff00;
+}
+.ticket2>h1:nth-child(2):hover{
+    position: absolute;
+    z-index: 3;
+    color: #f0f8ffcc;
+    background-color: #76cebd;;
+    font-size: 41px;
+}
+
+.ticket2>h1:nth-child(1):hover{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #b3121200;
+    font-size: 0px;
+}
+.ticket3>h1:nth-child(1){
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #353434;
+    font-size: 45px;
+}
+
+.ticket3>h1:nth-child(2){
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #353434;
+    font-size: 45px;
+    position: absolute;
+    z-index: 3;
+    color: #f0f8ff00;
+}
+.ticket3>h1:nth-child(2):hover{
+    position: absolute;
+    z-index: 3;
+    color: #f0f8ffcc;
+    background-color: #79b182;;
+    font-size: 41px;
+}
+
+.ticket3>h1:nth-child(1):hover{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #b3121200;
+    font-size: 0px;
+}
+.ticket4>h1:nth-child(1){
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #353434;
+    font-size: 45px;
+}
+
+.ticket4>h1:nth-child(2){
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #353434;
+    font-size: 45px;
+    position: absolute;
+    z-index: 3;
+    color: #f0f8ff00;
+}
+.ticket4>h1:nth-child(2):hover{
+    position: absolute;
+    z-index: 3;
+    color: #f0f8ffcc;
+    background-color: #fed57d;;
+    font-size: 41px;
+}
+
+.ticket4>h1:nth-child(1):hover{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 100;
+    color: #b3121200;
+    font-size: 0px;
+}
+.ticket1{
+    background-image: url(/tickets/tickets-05.png);
+    
+}
+.ticket2{
+    background-image: url(/tickets/tickets-06.png);
+}
+.ticket3{
+    background-image: url(/tickets/tickets-07.png);
+
+}
+.ticket4{
+    background-image: url(/tickets/tickets-08.png);
+
+}
 .prices{
     padding: 122px 0px;
     width: 100%;
     height: auto;
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    
 }
 .form{
     padding: 182px 0px;
@@ -68,7 +233,6 @@ main{
     justify-content: center;
 }
 table{
-    text-align: center;
     text-align: center;
     font-family: 'Poppins';
     font-weight: 100;
@@ -100,6 +264,35 @@ footer{
     width: 100%;
     height: 643px;
 }
+@keyframes animation {
+    0% {background-image: url(/animacionmano/1.png);}
+    50% {background-image: url(/animacionmano/2.png);}
+    100% {background-image: url(/animacionmano/3.png);}
+}
+.items_canciones{
+    display: flex;
+    flex-direction: row;
+    width: 745px;
+    padding-top: 24px;
+}
+.animacionweb{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 48em;
+    height: 25em;
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in;
+}
+@keyframes animator {
+    0% {background-image: url(/animacionmano/1.png);}
+    50% {background-image: url(/animacionmano/1.png);}
+    100% {background-image: url(/animacionmano/1.png);}
+}
+
 body{
     background-image: url(/fondo-02.jpg);
     background-size: 100%;
