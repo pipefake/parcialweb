@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos.css">
-    <link rel="stylesheet" type="text/css" href="csshake.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/css/csshake.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -38,7 +38,7 @@
                     mover el... ? <br />
 
                 </h1>
-                <img class="glass shake-hard shake-freeze" src="/peach.png" alt="emoji de durazno">
+                <img class="glass shake-hard shake-freeze" src="/resources/peach.png" alt="emoji de durazno">
             </div>
         </section>
         <section id="description" class="description">
@@ -48,6 +48,10 @@
                 <h3>19 | Jun | 2022 en Cali <br>
                     *alrededores del autocine*
                 </h3>
+                <div class="iconos">
+                    <img src="/iconos/icono-02.png" alt="zona de restaurante">
+                    <img src="/iconos/icono-03.png" alt="zona de parqueo">
+                </div>
             </div>
             <div><iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.1947348808744!2d-76.53583027730087!3d3.3019290899076443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e309fc1dc0a6435%3A0x89168a65b1f5a057!2sAutocine%20royal%20films!5e0!3m2!1ses!2sco!4v1646162054918!5m2!1ses!2sco"
@@ -155,7 +159,7 @@
                     <h1>Platino</h1>
                     <h1>$1.200.000</h1>
                 </div>
-                
+
                 <div class="ticket3 tickets">
                     <h1>Oro</h1>
                     <h1>$800.000</h1>
@@ -166,17 +170,62 @@
                 </div>
             </div>
         </section>
-        <section id="form" class="form"></section>
-        <section id="sponsors" class="sponsors"></section>
+        <section id="form" class="form">
+            <h1 class="subtitulo">Formulario</h1>
+            <form action="formSucess.html" >
+
+                <div class="name">
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="pepito" required>  <br>
+                </div>
+                <div class="lastname">
+                    <label for="lastname">Apellido:</label>
+                    <input type="text" placeholder="Perez" required> <br>
+                </div>
+                <div class="email">
+                    <label for="Email">Email:</label>
+                    <input type="email" placeholder="example@mail.com" required> <br>
+                </div>
+                <div class="numero">
+                    <label for="Numero">#tickets:
+                    </label>
+                    <input type="number" placeholder="1" required min="0" max="80" title="El formato debe coincidir con 3 letras mayúsculas y 4 números.">
+                </div>
+                <div class="send">
+                <input class="enviar" type="submit" value="Enviar" >
+                </div>
+            </form>
+        </section>
+        <section id="sponsors" class="sponsors">
+           <h1 class="subtitulo">Patrocinadores: </h1>
+            <div class="contenedordespon">
+                <img src="/sponsoors/1280px-Falabella.svg.png" alt="">
+                <img src="/sponsoors/Adidas_logo.png" alt="">
+                <img src="/sponsoors/cocacola.png" alt="">
+                <img src="/sponsoors/lacoste-logo1.png" alt="">
+                <img src="/sponsoors/Nestle-Logo.png" alt="">
+                <img src="/sponsoors/smirnoff-10.png" alt="">
+                <img src="/sponsoors/rolex2.png" alt="">
+                <img src="/sponsoors/Subway_logo.png" alt="">
+                <img src="/sponsoors/w-mcdonalds.png" alt="">
+                <img src="/sponsoors/descarga.png" alt="">
+            </div>
+        </section>
     </main>
-    <footer class="blog-footer">
-        <p>Copyright <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.
+    <footer>
+        
+        <p>Copyright by <a href="https://github.com/pipefake">@Pipefake</a>.
         </p>
+        
+        <div>
+            <a href="#"><img src="/iconos/facebook.png" alt="icono facebook"></a>
+            <a href="#"><img src="/iconos/whatsapp.png" alt="icono whatsapp"></a>
+            <a href="#"><img src="/iconos/instagram.png" alt="icono instagram"></a>
+            
+        </div>
         <p>
             <a href="#">Back to top</a>
         </p>
     </footer>
-
 </body>
-
 </html>
