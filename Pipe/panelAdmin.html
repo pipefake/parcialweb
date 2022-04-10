@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloslista.css">
     <title>Document</title>
 </head>
 
@@ -21,12 +22,7 @@
                     <input id="nombre" name="nombre"  type="text" required>
                 </div>
                 <div>
-                    
-                    <label for="name">Lista:</label><br>
-                    <input id="lista" name="lista"  type="text" required>
-                </div>
-                <div>
-                    <label for="name">img:</label><br>
+                    <label for="name">Imagen:</label><br>
                     <input type="file" id="img" name="fichero"  accept=".jpg, .jpeg, .png"   required/>
                 </div>
                 <div>
@@ -34,13 +30,20 @@
                     <input id="desc" name="desc"  type="text" required>
                 </div>
                 <div>
-                    <input type="submit" name="sub" class="sub" value="submit" onclick="insertarArtist()">
+                    <label for="name">Lista:</label><br>
+                    
+                    <input id="lista" name="lista"  type="text" required>
                 </div>
+                <div>
+                    <input type="submit" name="Enviar" class="sub" value="Enviar" onclick="insertarArtist()">
+                    <button onclick="remove()">Borrar todo</button>
+                </div>
+
             </form>
             
         </section>
     </main>
-    <footer><button onclick="insertArtist"> Enviar </button></footer>
+    <footer> </footer>
     <script src="scripts.js"></script>
     <script src="newphotofunction.js"></script>
 </body>

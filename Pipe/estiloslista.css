@@ -1,0 +1,47 @@
+form>input{
+    height: 40px;
+    border-radius: 12px;
+    font-family: fantasy;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+    background: antiquewhite;
+    border-radius: 45px;
+    MARGIN: 0px 90px 10px;
+}
+form>div>img{
+    width: 45px;
+}
+
+form>button{
+    height: 45px;
+    border-radius: 13px;
+    font-family: fantasy;
+}
+form>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+label{
+    font-size: 45px;
+    font-family: fantasy;
+}
+button,.sub{
+    height: 45px;
+    border-radius: 13px;
+    font-family: fantasy;
+}
+iframe{
+    height: 80px;
+}
+#contArtista{
+    margin-top: 102px;
+}
