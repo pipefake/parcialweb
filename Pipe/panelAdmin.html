@@ -18,20 +18,20 @@
             <form action="#">
                 <div>
                     <label for="name">Nombre:</label><br>
-                    <input id="nombre" name="nombre"  type="text">
+                    <input id="nombre" name="nombre"  type="text" required>
                 </div>
                 <div>
                     
                     <label for="name">Lista:</label><br>
-                    <input id="lista" name="lista"  type="text">
+                    <input id="lista" name="lista"  type="text" required>
                 </div>
                 <div>
                     <label for="name">img:</label><br>
-                    <input type="file" id="img" name="fichero"  accept=".jpg, .jpeg, .png"  />
+                    <input type="file" id="img" name="fichero"  accept=".jpg, .jpeg, .png"   required/>
                 </div>
                 <div>
                     <label for="name">Descripción:</label><br>
-                    <input id="desc" name="desc"  type="text">
+                    <input id="desc" name="desc"  type="text" required>
                 </div>
                 <div>
                     <input type="submit" name="sub" class="sub" value="submit" onclick="insertarArtist()">
