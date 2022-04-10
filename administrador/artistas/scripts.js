@@ -14,7 +14,7 @@ class Artist{
 
 function insertarArtist(){
     let nombre = document.getElementById("nombre").value;
-    let img = "../iconos/"+ document.getElementById("img").files[0].name;
+    let img = "fotosArtistas/"+ document.getElementById("img").files[0].name;
     let desc = document.getElementById("desc").value;
     let lista = document.getElementById("lista").value;
     const newArtista = new Artist(nombre,img,desc,lista);
@@ -37,7 +37,7 @@ function delet(i){
 }
 function edit(i){
     let nombre = document.getElementById("nombreedit_"+i).value;
-    let img = "../iconos/"+ document.getElementById("imgedit_"+i).files[0].name;
+    let img = "fotosArtistas/"+ document.getElementById("imgedit_"+i).files[0].name;
     let desc = document.getElementById("descedit_"+i).value;
     let lista = document.getElementById("listaedit_"+i).value;
     const artistAux = new Artist(nombre,img,desc,lista);
@@ -53,5 +53,6 @@ function remove(){
     leerLocalStorageArtist();
     location.reload();
 }
+
 
 

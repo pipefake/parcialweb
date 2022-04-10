@@ -306,6 +306,12 @@ footer{
     font-size: 60px;
     TEXT-ALIGN: center;
     color: #ffffff;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
     
 footer>p{
@@ -381,6 +387,19 @@ section:nth-child(1)>div>h1{
     color: white;
     text-align: center;
     line-height: 90px;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 52px; 
 }
 section:nth-child(2)>div>h1{
     font-family: 'Poppins', sans-serif;
@@ -390,10 +409,11 @@ section:nth-child(2)>div>h1{
     color: #242855;
     text-align: center;
     line-height: 70px;
-}
+text-shadow: 3px 3px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;}
+
 iframe{
     border-radius: 25px;
-    border: 11px solid #0191d7;
+    border: 11px solid #242855;;
 }
 section>div>h3{
     font-family: 'Poppins', sans-serif;
@@ -401,6 +421,13 @@ section>div>h3{
     font-size: 26px;
     TEXT-ALIGN: center;
     color: #ffffff;
+}
+#contenedorArt>p, div>h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    TEXT-ALIGN: center;
+    color: #ff9800;
 }
 
 section>div>img{
@@ -411,6 +438,18 @@ section>div{
     display: flex;
     align-content:  center;
     flex-direction: column;
+}
+.tituloArtistas{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 65px !important;
+    padding: 44px;
+    color: #904bdf;
+    text-align: center;
+    line-height: 40px;
+    text-shadow: 3px 3px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    /* -webkit-text-stroke: 11px white; */
+    -webkit-text-fill-color: #904bdf;-webkit-text-stroke: 1px white;paint-order: fill stroke;
 }
 li a {
     display: block;
@@ -447,18 +486,20 @@ label{
     margin-right: 20px;
 }
 input{
-    padding: 13px;
-    background-color: #ffde17 !important;
-    border-radius: 47px;
-    border: 5px solid #ca8811;
-    box-shadow: 1px 2px 4px 1px rgb(125 89 23 / 40%);
-    width: 420px;
-    height: 40px;
-    cursor: url(/resources/cursor-09.png), auto;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 31px;
-    color: white;
+    
+        padding: 13px;
+        background-color: #ffde17 !important;
+        border-radius: 47px;
+        border: 5px solid #242855;
+        box-shadow: 1px 2px 4px 1px rgb(125 89 23 / 40%);
+        width: 420px;
+        height: 40px;
+        cursor: url(/resources/cursor-09.png), auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 31px;
+        color: #242855;
+   
 }
 input:invalid {
     border: 5px dashed #ca8811;

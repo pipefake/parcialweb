@@ -1,0 +1,66 @@
+p {
+    margin: 0;
+    font-size: 32px;
+align-items: center;text-align: center;}
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#frameplaylist {
+    width: auto;
+    height: auto;
+}
+
+#frameplaylist>iframe {
+    height: 166px;
+    width: 225px;;
+}
+
+.contenedorArt {
+    width: 259px;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    justify-content: space-between;
+    background-color: #904bdf;
+    align-items: center;
+border-radius: 46px;padding: 15px;border: 5px solid white;}
+
+.contArtista {
+    display: flex;
+    flex-direction: row;
+    width: 1296px;
+    flex-wrap: wrap;
+}
+
+#secArt {
+    display: flex;
+    align-content: start;
+    justify-content: center;
+    /* margin: 84px 0; */
+}
+body{
+    background-image: url(/resources/fondo-02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: url(/cursor-04.png), auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}

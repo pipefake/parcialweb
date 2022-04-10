@@ -12,29 +12,29 @@ function leerLocalStorageArtist(){
             <div>
             <form action="#">
             <div>
-            <label>nombre</label>
+            <label>Nombre</label>
             <h1>${listaArtista[i].nombre}</h1>
             <input id="nombreedit_${i}" name="nombreedit"  type="text" value="${listaArtista[i].nombre}" required>
             </div>
             <div>
-            <label>imagen</label>
+            <label>Imagen</label>
             <img src="${listaArtista[i].img}">
             <input type="file" id="imgedit_${i}" name="fichero"  accept=".jpg, .jpeg, .png"  placeholder="${listaArtista[i].img}" required>
             </div>
             <div>
-            <label>descripcion</label>
-            <p>${listaArtista[i].desc}</p>
+            <label>Descripción</label>
+            <h2>${listaArtista[i].desc}</h2>
             <input id="descedit_${i}" name="nombreedit"  type="text" value="${listaArtista[i].desc}" required>
             </div>
             <div>
-            <label>playlist</label>
+            <label>Playlist</label>
             <div id="frameplaylist">
             ${listaArtista[i].lista}
             </div>
             <input id="listaedit_${i}" name="nombreedit"  type="text" value="" required>
             </div>
-            <button onclick="edit(${i})"> Editar </button>
-            <button onclick="delet(${i})"> Eliminar </button>
+            <button class="btn_edit" onclick="edit(${i})"> Editar </button>
+            <button class="btn_remove" onclick="delet(${i})"> Eliminar </button>
             </form>
             </div>
             `;
