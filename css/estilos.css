@@ -495,11 +495,11 @@ label{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 37px;
+    font-size: 27px;
     cursor: url(/resources/cursor-03.png) 45px 45px, auto;
     margin-right: 20px;
 }
-input{
+input, #Ubicacion, #Boletas{
     
         padding: 8px;
         background-color: #ffde17 !important;
@@ -512,8 +512,15 @@ input{
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
         font-size: 31px;
+        
         color: #242855;
+    width: 148px;
+    font-size: 14px;
+    border: 5px dashed #ca8811;
    
+}
+#Ubicacion, #Boletas{
+    padding: 22px;
 }
 input:invalid {
     border: 5px dashed #ca8811;
@@ -538,8 +545,8 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 700px;
-    justify-content: flex-end;
+    width: 498px;
+    justify-content: space-between;
     align-items: center;
     margin: 9px;
 }

@@ -186,32 +186,78 @@
             </div>
         </section>
         <section id="form" class="form">
-            <h1 class="subtitulo">Formulario</h1>
+            <h1 class="subtitulo">Comprar boletas</h1>
+            <div style="flex-direction: row;">
+
+                <form action="">
+                    <div class="name">
+                        <label for="Ubicacion">Elige la Ubicacion: </label>
+                        <select name="Ubicacion" id="Ubicacion" class="CP">
+                            <option value="...">...</option>
+                            <option value="Diamante">Diamante</option>
+                            <option value="Platino">Platino</option>
+                            <option value="Oro">Oro</option>
+                            <option value="Bronce">Bronce</option>
+                        </select>
+                    </div>
+
+                    <div class="name">
+                        <label for="Boletas">Numero de boletas: </label>
+                        <select name="Boletas" id="Boletas" class="CP">
+                            <option value="...">...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                    </div>
+
+                    <div class="name">
+                        <label for="Descuento">Codigo de descuento:</label>
+                        <input type="text" name="Descuento" id="Descuento" placeholder="Escribe tu codigo de descuento"
+                            class="CP" required>
+                    </div>
+
+
+                    <h3 class="subtitulo2" id="NotificacionDesc"></h3>
+
+            <div class="send">
+                <input class="enviar" type="button" value="Calcular" id="Botoncito">
+            </div>
+
+            <H3 class="subtitulo2" id="CPB" class="show"></H3>
+            <h3 class="subtitulo2" id="CT" class="show"></h3>
+            </form>
             <form action="formSucess.html">
 
                 <div class="name">
                     <label for="name">Nombre:</label>
-                    <input type="text" placeholder="pepito" required> <br>
+                    <input type="text" placeholder="pepito" required>
                 </div>
                 <div class="lastname">
                     <label for="lastname">Apellido:</label>
-                    <input type="text" placeholder="Perez" required> <br>
+                    <input type="text" placeholder="Perez" required>
                 </div>
                 <div class="email">
                     <label for="Email">Email:</label>
-                    <input type="email" placeholder="example@mail.com" required> <br>
+                    <input type="email" placeholder="example@mail.com" required>
                 </div>
                 <div class="numero">
-                    <label for="Numero">#tickets:
+                    <label for="Numero">Telefono:
                     </label>
                     <input type="number" placeholder="1" required min="0" max="80"
                         title="El formato debe coincidir con 3 letras mayúsculas y 4 números.">
                 </div>
 
-                <div class="send">
+                
                     <input class="enviar" type="submit" value="Enviar">
-                </div>
+                
             </form>
+        </div>
+            </div>
+        </section>
         </section>
         <section id="sponsors" class="sponsors">
             <h1 class="subtitulo">Patrocinadores: </h1>
