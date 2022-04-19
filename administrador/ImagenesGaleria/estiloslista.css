@@ -16,6 +16,11 @@ main {
     padding: 0 !important;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 label {
     font-size: 32px !important;
 }
@@ -147,5 +152,38 @@ button,
 iframe {
     height: 80px;
 }
-
-#contArtista {}
+.btn-flotante {
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    color: #904bdf !important;
+    border-radius: 483px !important;
+    letter-spacing: 2px !important;
+    background-color: #ffffff !important;
+    padding: 14px 15px !important;
+    position: fixed !important;
+    bottom: 599px !important;
+    right: 20px !important;
+    transition: all 300ms ease 0ms !important;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%) !important;
+    z-index: 99 !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none !important;
+}
+.btn-flotante:hover {
+	background-color: #f3f3f3; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+a>img{
+    width: 57px !important;
+    margin-right: 0 !important;
+}

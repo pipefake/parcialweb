@@ -20,6 +20,9 @@
 <body>
     <h1 class="tituloArtistas">Galeria de fotos</h1>
     <h1 style="margin-bottom: 30px;">Panel Administrativo</h1>
+    <a class="btn-flotante" href="../admin.html">
+        <img src="../../resources/left-arrow.png" alt="">
+    </a>
     <main>
         <section>
             <div id="contArtista"></div>
@@ -37,7 +40,7 @@
                 <div>
                     <label for="name">Descripción:</label><br>
                     <input id="desc" name="desc"  type="text" required>
-                </div>h
+                </div>
                 <div>
                     <input class="btn_enviar" type="submit" name="Enviar" class="sub" value="Enviar" onclick="insertarArtist()">
                     <button class="btn_remove" onclick="remove()">Borrar todo</button>

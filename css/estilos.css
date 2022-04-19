@@ -565,3 +565,38 @@ input::placeholder {
     background-color: #2196F3;
     color: #fff;
   }
+  .btn-flotante {
+	font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #904bdf !important;
+    border-radius: 483px;
+    letter-spacing: 2px;
+    background-color: #0191d7;
+    padding: 14px 12px;
+    position: fixed;
+    bottom: 658px;
+    right: 73px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+    z-index: 99;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.btn-flotante:hover {
+	background-color: #0480bc; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+a>img{
+    width: 40px;
+    margin-right: 12px;
+}

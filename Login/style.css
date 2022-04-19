@@ -5,17 +5,17 @@
 header {
   width: 100%;
   height: 138px;
-  background-image: url(/src/nubes.png);
+  background-image: url(src/nubes.png);
   background-size: auto;
   position: fixed;
   z-index: 10;
 }
 
 body {
-  background-image: url(/src/fondo-02.jpg);
+  background-image: url(src/fondo-02.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  cursor: url(/src/cursor-04.png), auto;
+  cursor: url(src/cursor-04.png), auto;
 }
 
 .container {
@@ -75,7 +75,7 @@ form .loginInput {
   border: none;
   background: none;
   outline: none;
-  cursor: url(/src/cursor-09.png), auto;
+  cursor: url(src/cursor-09.png), auto;
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -115,7 +115,7 @@ form .loginInput {
   color: #272f59;
   font-weight: bold;
   cursor: pointer;
-  cursor: url(/src/cursor-03.png), auto;
+  cursor: url(src/cursor-03.png), auto;
 }
 
 .recordar:hover {
@@ -125,7 +125,7 @@ form .loginInput {
 input[type="button"] {
   background: #f2ce16 !important;
   color: #272f59 !important;
-  cursor: url(/src/cursor-03.png), auto !important;
+  cursor: url(src/cursor-03.png), auto !important;
   font-family: "Poppins", sans-serif !important;
   font-weight: 700 !important;
   font-size: 42px !important;

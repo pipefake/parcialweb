@@ -50,7 +50,7 @@ function acceder()
     if(user=="admin" && claveUsuarioEncriptada===claveAccesoEncriptada)
     {
         alert ("Bienvenido al panel administrativo");
-        window.location="hola.html";
+        window.location="../administrador/admin.html";
     }
    else
     {
