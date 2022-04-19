@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 138px;
+  background-image: url(/src/nubes.png);
+  background-size: auto;
+  position: fixed;
+  z-index: 10;
+}
+
+body {
+  background-image: url(/src/fondo-02.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: url(/src/cursor-04.png), auto;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 30vh;
+}
+
+.formulario {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.formulario h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+  color: #272f59;
+}
+
+.formulario form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .loginInput {
+  top: -5px;
+  color: #049dd9;
+  position: relative;
+  border-bottom: 2px solid silver;
+  margin: 30 px 0;
+}
+
+form .loginInput {
+  top: -5px;
+  color: #049dd9;
+  position: relative;
+  border-bottom: 2px solid silver;
+  margin: 30 px 0;
+}
+
+.loginInput input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: url(/src/cursor-09.png), auto;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.loginInput label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: silver;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.loginInput span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #049dd9;
+  transition: 0.1s;
+}
+
+.loginInput input:focus ~ label {
+  top: -5px;
+  color: #049dd9;
+}
+
+.loginInput input:focus ~ span::before {
+  width: 100%;
+}
+
+.recordar {
+  margin: 7px 0 20px 0;
+  color: #272f59;
+  font-weight: bold;
+  cursor: pointer;
+  cursor: url(/src/cursor-03.png), auto;
+}
+
+.recordar:hover {
+  text-decoration: underline;
+}
+
+input[type="button"] {
+  background: #f2ce16 !important;
+  color: #272f59 !important;
+  cursor: url(/src/cursor-03.png), auto !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 42px !important;
+  height: 76px !important;
+  width: 390px !important;
+  text-align: center !important;
+  font-size: 29px !important;
+  border-radius: 12px;
+  border: none;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #049dd9;
+}
+
+.filled label {
+  top: -5px;
+  color: #049dd9;
+}
+
