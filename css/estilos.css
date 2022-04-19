@@ -276,6 +276,20 @@ th {
     padding: 14px;
     border-radius: 20px 20px 0px 0px;
 }
+.trivia{
+    color: white;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 5px;
+    border-radius: 45px;
+    MARGIN: 0px 90px 10px;
+    justify-content: space-between;
+    background-color: #9c66d9;
+    align-items: center;
+    border: 5px solid white;
+    text-decoration: none;
+}
 td{
     padding: 35px;
     color: white;
@@ -481,13 +495,13 @@ label{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 37px;
     cursor: url(/resources/cursor-03.png) 45px 45px, auto;
     margin-right: 20px;
 }
 input{
     
-        padding: 13px;
+        padding: 8px;
         background-color: #ffde17 !important;
         border-radius: 47px;
         border: 5px solid #242855;
