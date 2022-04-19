@@ -169,25 +169,85 @@
         </section>
         <section id="form" class="form">
             <h1 class="subtitulo">Formulario</h1>
+            
             <form action="formSucess.html" >
 
+                <br><br>
+
+                <h1 class="subtitulo2">Calcular precios: </h1>
+                <br>
+
                 <div class="name">
-                    <label for="name">Nombre:</label>
-                    <input type="text" placeholder="pepito" required>  <br>
+                    <label for="Ubicacion">Elige la Ubicacion: </label>
+
+                </div>
+                <div class="name">
+                    <select name="Ubicacion" id="Ubicacion" class="CP">
+                        <option value="...">...</option>
+                        <option value="Diamante">Diamante</option>
+                        <option value="Platino">Platino</option>
+                        <option value="Oro">Oro</option>
+                        <option value="Bronce">Bronce</option>
+                    </select>
+                </div>
+
+                <div class="name">
+                    <label for="Boletas">Numero de boletas: </label>
+                    <br>
+                </div>
+
+                <div class="name">
+                    <select name="Boletas" id="Boletas" class="CP" >
+                        <option value="...">...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    
+                </div>
+
+                <div class="name">
+                    <label for="Descuento">Codigo de descuento:</label>
+        <input type="text" name="Descuento" id="Descuento" placeholder="Escribe tu codigo de descuento" class="CP" required><br>
+                </div>
+
+
+                <h3 class="subtitulo2" id="NotificacionDesc"></h3>
+
+        
+
+    </div>
+    <br> <br>
+    <div class="send">
+    <input class="enviar" type="button" value="Calcular" id="Botoncito"  >
+    </div>
+
+        <H3 class="subtitulo2" id="CPB" class="show"></H3>
+        <h3 class="subtitulo2" id="CT" class="show"></h3>
+
+        
+<br><br><br>
+                <h1 class="subtitulo2">Datos personales:</h1>
+<br><br>
+                <div class="name">
+                    <label for="Name">Nombre:</label>
+        <input type="text" name="UserName" id="Name" placeholder="Escribe tu nombre" required><br>
                 </div>
                 <div class="lastname">
-                    <label for="lastname">Apellido:</label>
-                    <input type="text" placeholder="Perez" required> <br>
+                    <label for="LName">Apellido:</label>
+        <input type="text" name="LName" id="LName" placeholder="Escribe tu apellido" required><br>
                 </div>
                 <div class="email">
-                    <label for="Email">Email:</label>
-                    <input type="email" placeholder="example@mail.com" required> <br>
+                    <label for="Mail">Email:</label>
+        <input type="email" name="Mail" id="Mail" placeholder="Escribe tu correo" required><br>
                 </div>
                 <div class="numero">
-                    <label for="Numero">#tickets:
-                    </label>
-                    <input type="number" placeholder="1" required min="0" max="80" title="El formato debe coincidir con 3 letras mayúsculas y 4 números.">
+                    <label for="Telefono">Telefono:</label>
+        <input type="number" name="Telefono" id="Telefono" placeholder="Escribe tu teléfono" required><br>
                 </div>
+                <br>
                 <div class="send">
                 <input class="enviar" type="submit" value="Enviar" >
                 </div>
@@ -224,5 +284,7 @@
             <a href="#">Back to top</a>
         </p>
     </footer>
+
+    <script src="./Formulario.js" type="module"></script>
 </body>
 </html>

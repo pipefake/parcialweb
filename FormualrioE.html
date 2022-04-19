@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>EJEMPLO DE OBTENCION DE DATOS CON JAVASCRIPT</title>
+<script type="text/javascript">
+	function obtenerdatos()
+	{
+		var nombre = document.getElementById('nombre').value;
+		var edad = parseFloat(document.getElementById('edad').value);
+
+		document.registro.nombreobtenido.value = nombre;
+		document.registro.edadobtenida.value = edad;
+
+	}
+</script>
+</head>
+<body>
+<form name="registro">
+<table border="1">
+<tr>
+	<td>Nombre:</td><td><input type="text" name="nombre" id="nombre" ></td>
+</tr>	
+<tr>
+	<td>Edad:</td><td><input type="text" name="edad" id="edad" ></td>
+</tr>
+<tr>
+	<td colspan "2"><input type="button" name="btn1" value="Enviar" onclick="obtenerdatos()"></td>
+</tr>
+</table><br/><br/><br/>
+
+
+
+
+<table border="1">
+<tr>
+	<td>Nombre:</td><td><input type="text" name="nombreobtenido" id="nombreobtenido" ></td>
+</tr>	
+<tr>
+	<td>Edad:</td><td><input type="text" name="edadobtenida" id="edadobtenida" ></td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>

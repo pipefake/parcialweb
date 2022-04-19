@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Reserva.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form name="FormularioReserva" action="/formSucess.html">
+
+        <h1>Calcular precios</h1>
+
+        <label for="Ubicacion">Elige la Ubicacion: </label>
+        <select name="Ubicacion" id="Ubicacion">
+            <option value="...">...</option>
+            <option value="Diamante">Diamante</option>
+            <option value="Platino">Platino</option>
+            <option value="Oro">Oro</option>
+            <option value="Bronce">Bronce</option>
+        </select>
+        <br>
+        <label for="Boletas">Numero de boletas: </label>
+        <select name="Boletas" id="Boletas">
+            <option value="...">...</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+
+        <label for="Descuento">Codigo de descuento:</label>
+        <input type="text" name="Descuento" id="Descuento" placeholder="Escribe tu codigo de descuento"><br>
+
+        <h3 id="NotificacionDesc"></h3>
+
+        <input type="button" value="Calcular" id="Botoncito" ><br>
+
+        <H3 id="CPB" class="show"></H3>
+        <h3 id="CT" class="show"></h3>
+
+        <dialog id="ms"></dialog>
+
+        <h1>Reservar boletas</h1>
+
+
+        <label for="Name">Nombre:</label>
+        <input type="text" name="UserName" id="Name" placeholder="Escribe tu nombre" required><br>
+
+        <label for="LName">Apellido:</label>
+        <input type="text" name="LName" id="LName" placeholder="Escribe tu apellido" required><br>
+
+        <label for="Mail">Correo:</label>
+        <input type="email" name="Mail" id="Mail" placeholder="Escribe tu correo" required><br>
+
+        <label for="Telefono">Telefono:</label>
+        <input type="number" name="Telefono" id="Telefono" placeholder="Escribe tu teléfono" required><br>
+        
+
+        
+
+        
+
+        
+        <input type="submit" value="Enviar" id="Botoncito2" ><br>
+
+     
+      
+    </form>
+
+    
+
+    
+    <script src="./Formulario.js" type="module"></script>
+</body>
+</html>
