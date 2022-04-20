@@ -1,16 +1,17 @@
 leerLocalStorageArtist();
 
 
-function leerLocalStorageArtist(){
+function leerLocalStorageArtist() {
     listaAux = localStorage.getItem("Galeria");
-    if(listaAux != null){
+    if (listaAux != null) {
         listaArtista = JSON.parse(listaAux);
         console.log("si hay");
-        for(i = 0; i<listaArtista.length; i++){
+        for (i = 0; i < listaArtista.length; i++) {
             const contArtista = document.getElementById('contArtista');
-	        let HTMLString = `
+            let HTMLString = `
             <div>
-            <form action="#">
+            <form action="#" style="flex-direction: row;
+            width: auto;">
             <div>
             <label>Nombre</label>
             <h1>${listaArtista[i].titulo}</h1>
@@ -32,10 +33,10 @@ function leerLocalStorageArtist(){
             </form>
             </div>
             `;
-	        contArtista.innerHTML += HTMLString;
-            
+            contArtista.innerHTML += HTMLString;
+
         }
-    }else{
+    } else {
         console.log("no hay");
     }
 }

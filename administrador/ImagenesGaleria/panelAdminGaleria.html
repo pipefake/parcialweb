@@ -9,11 +9,19 @@
     <link rel="stylesheet" href="../../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        h1 {
+            color: white !important;
+        }
+    </style>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Poppins:ital,wght@0,700;1,100;1,300;1,500;1,900&display=swap"
         rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
@@ -28,26 +36,28 @@
             <div id="contArtista"></div>
         </section>
         <section>
-            <form action="#">
+            <form action="#" style="flex-direction: row;
+    width: auto;">
                 <div>
                     <label for="name">Nombre:</label><br>
-                    <input id="nombre" name="nombre"  type="text" required>
+                    <input id="nombre" name="nombre" type="text" required>
                 </div>
                 <div class="input-group mb-3 inputimg">
                     <label>Imagen</label>
-                    <input type="file" id="img" name="fichero"  accept=".jpg, .jpeg, .png"  placeholder="" required>
-                  </div>
-                <div>
-                    <label for="name">Descripción:</label><br>
-                    <input id="desc" name="desc"  type="text" required>
+                    <input type="file" id="img" name="fichero" accept=".jpg, .jpeg, .png" placeholder="" required>
                 </div>
                 <div>
-                    <input class="btn_enviar" type="submit" name="Enviar" class="sub" value="Enviar" onclick="insertarArtist()">
+                    <label for="name">Descripción:</label><br>
+                    <input id="desc" name="desc" type="text" required>
+                </div>
+                <div>
+                    <input class="btn_enviar" type="submit" name="Enviar" class="sub" value="Enviar"
+                        onclick="insertarArtist()">
                     <button class="btn_remove" onclick="remove()">Borrar todo</button>
                 </div>
 
             </form>
-            
+
         </section>
     </main>
     <footer> </footer>

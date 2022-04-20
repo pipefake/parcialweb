@@ -255,7 +255,7 @@ main{
 .form{
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: auto;
     align-items: center;
     justify-content: center;
     padding: 122px 0px;
@@ -327,6 +327,16 @@ footer{
       -1px 1px 0 #000,
        1px 1px 0 #000;
 }
+.subtitulo2{
+    display: block;
+    color: #333335;
+    text-align: initial;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 465px;
+}
     
 footer>p{
     text-align: center;
@@ -376,7 +386,7 @@ footer>p{
 }
 
 body{
-    background-image: url(/resources/fondo-02.jpg);
+    background-image: url(/resources/fondo-02-02.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     cursor: url(/resources/cursor-04.png), auto;
@@ -411,10 +421,10 @@ section:nth-child(1)>div>h1{
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: white;
+    color: #404040;
     text-align: center;
     line-height: 52px; 
-}
+font-size: 45px;}
 section:nth-child(2)>div>h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -442,7 +452,9 @@ section>div>h3{
     font-size: 26px;
     TEXT-ALIGN: center;
     color: #ff9800;
-}
+text-shadow: 1px 2px 4px #000000;}
+
+p {}
 
 section>div>img{
     padding: 0 675px;
@@ -499,7 +511,20 @@ label{
     cursor: url(/resources/cursor-03.png) 45px 45px, auto;
     margin-right: 20px;
 }
-input, #Ubicacion, #Boletas{
+.contenedorForm{
+    flex-direction: row;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 29px;
+    background: #ffffff7a;
+    border-radius: 67px;
+    margin: 12px;
+}
+input,input:active, #Ubicacion, #Boletas{
     
         padding: 8px;
         background-color: #ffde17 !important;
@@ -516,14 +541,14 @@ input, #Ubicacion, #Boletas{
         color: #242855;
     width: 148px;
     font-size: 14px;
-    border: 5px dashed #ca8811;
+    
    
 }
 #Ubicacion, #Boletas{
     padding: 22px;
 }
 input:invalid {
-    border: 5px dashed #ca8811;
+    
 }
 input::placeholder { 
     
@@ -623,7 +648,7 @@ a>img{
 }
 .contListas{
     flex-direction: row;
-    padding: 33px 43PX;
+    padding: 12px 43PX;
     justify-content: center;
 }
 .contListas>a{

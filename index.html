@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilos.css">
-    <link rel="stylesheet" type="text/css" href="/css/csshake.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/csshake.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -51,7 +52,7 @@
         <section id="description" class="description">
             <div class="info_description">
                 <h1>¡Noche de Perreo intenso!</h1>
-                <h3>un total de 20 dioses del reggaeton</h3>
+                <h3>Un total de 20 dioses del reggaeton</h3>
                 <h3>19 | Jun | 2022 en Cali <br>
                     *alrededores del autocine*
                 </h3>
@@ -187,9 +188,10 @@
         </section>
         <section id="form" class="form">
             <h1 class="subtitulo">Comprar boletas</h1>
-            <div style="flex-direction: row;">
-
+            <div class="contenedorForm">
+                
                 <form action="">
+                    <h1>Calcular Precio</h1>
                     <div class="name">
                         <label for="Ubicacion">Elige la Ubicacion: </label>
                         <select name="Ubicacion" id="Ubicacion" class="CP">
@@ -222,16 +224,14 @@
 
 
                     <h3 class="subtitulo2" id="NotificacionDesc"></h3>
-
+                    <H3 class="subtitulo2" id="CPB" class="show"></H3>
+            <h3 class="subtitulo2" id="CT" class="show"></h3>
             <div class="send">
                 <input class="enviar" type="button" value="Calcular" id="Botoncito">
             </div>
-
-            <H3 class="subtitulo2" id="CPB" class="show"></H3>
-            <h3 class="subtitulo2" id="CT" class="show"></h3>
             </form>
             <form action="formSucess.html">
-
+                <h1>Enviar Información</h1>
                 <div class="name">
                     <label for="name">Nombre:</label>
                     <input type="text" placeholder="pepito" required>
@@ -250,9 +250,7 @@
                     <input type="number" placeholder="1" required min="0" max="80"
                         title="El formato debe coincidir con 3 letras mayúsculas y 4 números.">
                 </div>
-
-                
-                    <input class="enviar" type="submit" value="Enviar">
+                    <input class="enviar" type="submit" value="Enviar" >
                 
             </form>
         </div>
@@ -301,6 +299,7 @@
         crossorigin="anonymous"></script>
     <script src="Pipe/newphotofunction.js"></script>
     <script src="Pipe/scripts.js"></script>
+    <script src="javascript/Formulario.js" type="module"></script>
 
 </body>
 

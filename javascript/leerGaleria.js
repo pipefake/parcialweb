@@ -9,8 +9,7 @@ function leerLocalStorageArtist(){
         for(i = 0; i<listaGaleria.length; i++){
             const contGaleria = document.getElementById('contGaleria');
 	        let HTMLString = `
-            <div class="contenedorArt" id="contenedorArt">
-            <img class="imgArtista" src="../administrador/ImagenesGaleria/${listaGaleria[i].img}">
+            <div class="contenedorArt" id="contenedorArt" style="height: 225px;background-image: url(../administrador/ImagenesGaleria/${listaGaleria[i].img})">
             <h1>${listaGaleria[i].titulo}</h1>
             <p>${listaGaleria[i].desc}</p>
       

@@ -10,7 +10,7 @@ function leerLocalStorageArtist(){
             const contArtista = document.getElementById('contArtista');
 	        let HTMLString = `
             <div>
-            <form action="#">
+            <form action="#" style="width: AUTO;flex-direction: ROW;">
             <div>
             <label>Nombre</label>
             <h1>${listaArtista[i].nombre}</h1>
