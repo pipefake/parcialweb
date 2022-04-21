@@ -59,7 +59,7 @@ main{
 .contents{
     width: 100%;
     height: auto; 
-    padding: 132px 0px;
+    padding: 157px 0px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -244,7 +244,7 @@ main{
 
 }
 .prices{
-    padding: 122px 0px;
+    padding: 149px 0px;
     width: 100%;
     height: auto;
     align-items: center;
@@ -522,8 +522,8 @@ form{
     padding: 29px;
     background: #ffffff7a;
     border-radius: 67px;
-    margin: 12px;
-}
+    text-align: center;margin: 12px;
+align-items: center;}
 input,input:active, #Ubicacion, #Boletas{
     
         padding: 8px;
@@ -545,8 +545,8 @@ input,input:active, #Ubicacion, #Boletas{
    
 }
 #Ubicacion, #Boletas{
-    padding: 22px;
-}
+    
+WIDTH: 174PX;height: 64px;}
 input:invalid {
     
 }
