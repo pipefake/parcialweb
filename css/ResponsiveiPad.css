@@ -3,7 +3,7 @@
         padding: 0px 400px 0px 400px;
     }
     .info_description{
-        width: 423px;
+        width: auto;
     }
     section:nth-child(2)>div>h1{
         padding: 0px 5px 27px 3px;
