@@ -4,7 +4,7 @@
 header{
     width: 100%;
     height: 138px;
-    background-image: url(/resources/nubes.png);
+    background-image: url(../resources/nubes.png);
     background-size: auto;
     margin: auto;
     position: fixed;
@@ -13,13 +13,13 @@ header{
 footer>div>a>img{
     width: 42px;
     padding: 4px;
-    cursor: url(/resources/cursor-03.png), auto;
+    cursor: url(../resources/cursor-03.png), auto;
 }
 footer>a{
-    cursor: url(/resources/cursor-03.png), auto !important;
+    cursor: url(../resources/cursor-03.png), auto !important;
 }
 footer>p>a{
-    cursor: url(/resources/cursor-03.png), auto !important;
+    cursor: url(../resources/cursor-03.png), auto !important;
 }
 footer>div{
     display: flex;
@@ -84,7 +84,7 @@ main{
     align-items: center;
     display: flex;
     justify-content: center;
-    cursor: url(/resources/resources/cursor-03.png), auto;
+    cursor: url(../resources/resources/cursor-03.png), auto;
 }
 .ticket1>h1:nth-child(1){
     text-align: center;
@@ -229,18 +229,18 @@ main{
     font-size: 0px;
 }
 .ticket1{
-    background-image: url(/tickets/tickets-05.png);
+    background-image: url(../tickets/tickets-05.png);
     
 }
 .ticket2{
-    background-image: url(/tickets/tickets-06.png);
+    background-image: url(../tickets/tickets-06.png);
 }
 .ticket3{
-    background-image: url(/tickets/tickets-07.png);
+    background-image: url(../tickets/tickets-07.png);
 
 }
 .ticket4{
-    background-image: url(/tickets/tickets-08.png);
+    background-image: url(../tickets/tickets-08.png);
 
 }
 .prices{
@@ -266,7 +266,7 @@ table{
     font-weight: 100;
 }
 .prices>div:nth-child(1){
-    background-image: url(/tickets/tickets-05.png);
+    background-image: url(../tickets/tickets-05.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -344,9 +344,9 @@ footer>p{
     font-weight: 100;
 }
 @keyframes animation {
-    0% {background-image: url(/animacionmano/1.png);}
-    50% {background-image: url(/animacionmano/2.png);}
-    100% {background-image: url(/animacionmano/3.png);}
+    0% {background-image: url(../animacionmano/1.png);}
+    50% {background-image: url(../animacionmano/2.png);}
+    100% {background-image: url(../animacionmano/3.png);}
 }
 .items_canciones{
     display: flex;
@@ -380,16 +380,16 @@ footer>p{
     animation-timing-function: ease-in;
 }
 @keyframes animator {
-    0% {background-image: url(/animacionmano/1.png);}
-    50% {background-image: url(/animacionmano/1.png);}
-    100% {background-image: url(/animacionmano/1.png);}
+    0% {background-image: url(../animacionmano/1.png);}
+    50% {background-image: url(../animacionmano/1.png);}
+    100% {background-image: url(../animacionmano/1.png);}
 }
 
 body{
-    background-image: url(/resources/fondo-02-02.jpg);
+    background-image: url(../resources/fondo-02-02.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    cursor: url(/resources/cursor-04.png), auto;
+    cursor: url(../resources/cursor-04.png), auto;
 
 }
 ul {
@@ -486,7 +486,7 @@ li a {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: larger;
-    cursor: url(/resources/cursor-03.png), auto;
+    cursor: url(../resources/cursor-03.png), auto;
 }
   
 li a:hover {
@@ -508,7 +508,7 @@ label{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 27px;
-    cursor: url(/resources/cursor-03.png) 45px 45px, auto;
+    cursor: url(../resources/cursor-03.png) 45px 45px, auto;
     margin-right: 20px;
 }
 .contenedorForm{
@@ -533,7 +533,7 @@ input,input:active, #Ubicacion, #Boletas{
         box-shadow: 1px 2px 4px 1px rgb(125 89 23 / 40%);
         width: 420px;
         height: 40px;
-        cursor: url(/resources/cursor-09.png), auto;
+        cursor: url(../resources/cursor-09.png), auto;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
         font-size: 31px;
@@ -587,7 +587,7 @@ input::placeholder {
     color: #ffde17 !important;
     font-family: monospace !important;
     font-size: 35px !important;
-    cursor: url(/resources/cursor-04.png), auto !important;
+    cursor: url(../resources/cursor-04.png), auto !important;
     font-family: 'Poppins', sans-serif !important;
     font-weight: 700 !important;
     font-size: 42px !important;
