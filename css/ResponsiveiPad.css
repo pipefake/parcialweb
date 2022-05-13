@@ -1,0 +1,20 @@
+@media screen and (max-width:1024px) {
+    section>div>img{
+        padding: 0px 400px 0px 400px;
+    }
+    .info_description{
+        width: 423px;
+    }
+    section:nth-child(2)>div>h1{
+        padding: 0px 5px 27px 3px;
+    }
+    .description{
+        justify-content: space-evenly;
+    }
+    section>div>h3{
+        font-size: 20px;
+    }
+    section>div{
+        justify-content: center;    
+    }
+}

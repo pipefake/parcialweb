@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
-    
+    <link rel="stylesheet" href="css/responsiveiPhoneX.css">
     <link rel="stylesheet" type="text/css" href="css/csshake.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Poppins:ital,wght@0,700;1,100;1,300;1,500;1,900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/modal.css">
@@ -26,7 +27,7 @@
     </a>
     <header>
         <nav>
-            <ul>
+            <ul class="topnav" id="myTopnav">
                 <li><a class="active" href="#">Inicio</a></li>
                 <li><a class="" href="#description">Descripción</a></li>
                 <li> <a href="#schedules">Programación</a> </li>
@@ -34,6 +35,11 @@
                 <li> <a href="#prices">Comprar</a> </li>
                 <li> <a href="#form">Contactenos</a> </li>
                 <li> <a href="#sponsors">Patrocinadores</a> </li>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -300,7 +306,16 @@
     <script src="Pipe/newphotofunction.js"></script>
     <script src="Pipe/scripts.js"></script>
     <script src="javascript/Formulario.js" type="module"></script>
-
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 
 </html>

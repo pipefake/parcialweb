@@ -82,7 +82,7 @@ function MostrarCosto()
             document.getElementById('NotificacionDesc').innerHTML= "🎉🎉🎉Felicitaciones, por el codigo MUSIC50 has recibido un 50% de descuento en tus entradas"
         }
         else{
-            document.getElementById('NotificacionDesc').innerHTML=""
+            document.getElementById('NotificacionDesc').innerHTML="El código que ingresaste no es válido"
         }
        
         document.getElementById('CPB').innerHTML= ValorAMostrar
