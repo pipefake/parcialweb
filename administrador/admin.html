@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+    <style>
+        body>div{
+            display: flex;
+    padding: 203px;
+    flex-direction: row;
+    justify-content: center;
+        }
+        div>div{
+            background-color: #904bdf;
+    align-items: center;
+    border: 5px solid white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    border-radius: 45px;
+    padding: 68px;
+    margin: 66px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a>img{
+    width: 57px !important;
+    margin-right: 0 !important;
+}
+        .btn-flotante {
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    color: #904bdf !important;
+    border-radius: 483px !important;
+    letter-spacing: 2px !important;
+    background-color: #ffffff !important;
+    padding: 14px 15px !important;
+    position: fixed !important;
+    bottom: 599px !important;
+    right: 20px !important;
+    transition: all 300ms ease 0ms !important;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%) !important;
+    z-index: 99 !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none !important;
+}
+.btn-flotante:hover {
+	background-color: #f3f3f3; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
+    </style>
+</head>
+
+<body>
+    <a class="btn-flotante" href="../index.html">
+        <img src="../../resources/left-arrow.png" alt="">
+    </a>
+    <div>
+        <div>
+            <a href="artistas/panelAdminArtistas.html">
+                Editar Artistas
+            </a>
+        </div>
+        <div>
+            <a href="ImagenesGaleria/panelAdminGaleria.html">
+                Editar Fotos
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

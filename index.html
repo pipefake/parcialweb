@@ -5,20 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilos.css">
-    <link rel="stylesheet" type="text/css" href="/css/csshake.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsiveiPhoneX.css">
+    <link rel="stylesheet" type="text/css" href="css/csshake.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Poppins:ital,wght@0,700;1,100;1,300;1,500;1,900&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Vista previa de imágenes</title>
 </head>
 
 <body>
+    <a class="btn-flotante" href="Login/login.html">
+        <img src="resources/in.png" alt="imagen inicio">
+    </a>
     <header>
         <nav>
-            <ul>
+            <ul class="topnav" id="myTopnav">
                 <li><a class="active" href="#">Inicio</a></li>
                 <li><a class="" href="#description">Descripción</a></li>
                 <li> <a href="#schedules">Programación</a> </li>
@@ -26,6 +35,11 @@
                 <li> <a href="#prices">Comprar</a> </li>
                 <li> <a href="#form">Contactenos</a> </li>
                 <li> <a href="#sponsors">Patrocinadores</a> </li>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -38,19 +52,19 @@
                     mover el... ? <br />
 
                 </h1>
-                <img class="glass shake-hard shake-freeze" src="/resources/peach.png" alt="emoji de durazno">
+                <img class="glass shake-hard shake-freeze" src="resources/peach.png" alt="emoji de durazno">
             </div>
         </section>
         <section id="description" class="description">
             <div class="info_description">
                 <h1>¡Noche de Perreo intenso!</h1>
-                <h3>un total de 20 dioses del reggaeton</h3>
+                <h3>Un total de 20 dioses del reggaeton</h3>
                 <h3>19 | Jun | 2022 en Cali <br>
                     *alrededores del autocine*
                 </h3>
                 <div class="iconos">
-                    <img src="/iconos/icono-02.png" alt="zona de restaurante">
-                    <img src="/iconos/icono-03.png" alt="zona de parqueo">
+                    <img src="iconos/icono-02.png" alt="zona de restaurante">
+                    <img src="iconos/icono-03.png" alt="zona de parqueo">
                 </div>
             </div>
             <div><iframe
@@ -135,6 +149,10 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="contListas">
+                <a href="pages/artistas.html">Ver artistas</a>
+                <a href="pages/galeria.html">Ver galeria</a>
+            </div>
         </section>
         <section id="contents" class="contents">
             <h1 class="subtitulo">Canciones</h1>
@@ -168,9 +186,14 @@
                     <h1>Bronce</h1>
                     <h1>$400.000</h1>
                 </div>
+                <div class="contListas">
+                    <a class="trivia" href="trivia parcial/index.html">Participa en la trivia para ganar un
+                        descuento</a>
+                </div>
             </div>
         </section>
         <section id="form" class="form">
+<<<<<<< HEAD
             <h1 class="subtitulo">Formulario</h1>
 
             <form action="formSucess.html">
@@ -179,8 +202,55 @@
 
                 <h1 class="subtitulo2">Calcular precios: </h1>
                 <br>
+=======
+            <h1 class="subtitulo">Comprar boletas</h1>
+            <div class="contenedorForm">
+                
+                <form action="">
+                    <h1>Calcular Precio</h1>
+                    <div class="name">
+                        <label for="Ubicacion">Elige la Ubicacion: </label>
+                        <select name="Ubicacion" id="Ubicacion" class="CP">
+                            <option value="...">...</option>
+                            <option value="Diamante">Diamante</option>
+                            <option value="Platino">Platino</option>
+                            <option value="Oro">Oro</option>
+                            <option value="Bronce">Bronce</option>
+                        </select>
+                    </div>
+>>>>>>> d63088799ea3837455e75fe520d6d37c7dd7c906
 
+                    <div class="name">
+                        <label for="Boletas">Numero de boletas: </label>
+                        <select name="Boletas" id="Boletas" class="CP">
+                            <option value="...">...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                    </div>
+
+                    <div class="name">
+                        <label for="Descuento">Codigo de descuento:</label>
+                        <input type="text" name="Descuento" id="Descuento" placeholder="Escribe tu codigo de descuento"
+                            class="CP" required>
+                    </div>
+
+
+                    <h3 class="subtitulo2" id="NotificacionDesc"></h3>
+                    <H3 class="subtitulo2" id="CPB" class="show"></H3>
+            <h3 class="subtitulo2" id="CT" class="show"></h3>
+            <div class="send">
+                <input class="enviar" type="button" value="Calcular" id="Botoncito">
+            </div>
+            </form>
+            <form action="formSucess.html">
+                <h1>Enviar Información</h1>
                 <div class="name">
+<<<<<<< HEAD
                     <label for="Ubicacion">Elige la Ubicacion: </label>
 
                 </div>
@@ -254,23 +324,47 @@
                 <br>
                 <div class="send">
                     <input class="enviar" type="submit" value="Enviar">
+=======
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="pepito" required>
                 </div>
+                <div class="lastname">
+                    <label for="lastname">Apellido:</label>
+                    <input type="text" placeholder="Perez" required>
+                </div>
+                <div class="email">
+                    <label for="Email">Email:</label>
+                    <input type="email" placeholder="example@mail.com" required>
+                </div>
+                <div class="numero">
+                    <label for="Numero">Telefono:
+                    </label>
+                    <input type="number" placeholder="1" required min="0" max="3999999999"
+                        title="El formato debe coincidir con 3 letras mayúsculas y 4 números.">
+>>>>>>> d63088799ea3837455e75fe520d6d37c7dd7c906
+                </div>
+                    <input class="enviar" type="submit" value="Enviar" >
+                
             </form>
+        </div>
+            </div>
+        </section>
         </section>
         <section id="sponsors" class="sponsors">
             <h1 class="subtitulo">Patrocinadores: </h1>
             <div class="contenedordespon">
-                <img src="/sponsoors/1280px-Falabella.svg.png" alt="">
-                <img src="/sponsoors/Adidas_logo.png" alt="">
-                <img src="/sponsoors/cocacola.png" alt="">
-                <img src="/sponsoors/lacoste-logo1.png" alt="">
-                <img src="/sponsoors/Nestle-Logo.png" alt="">
-                <img src="/sponsoors/smirnoff-10.png" alt="">
-                <img src="/sponsoors/rolex2.png" alt="">
-                <img src="/sponsoors/Subway_logo.png" alt="">
-                <img src="/sponsoors/w-mcdonalds.png" alt="">
-                <img src="/sponsoors/descarga.png" alt="">
+                <img src="sponsoors/1280px-Falabella.svg.png" alt="">
+                <img src="sponsoors/Adidas_logo.png" alt="">
+                <img src="sponsoors/cocacola.png" alt="">
+                <img src="sponsoors/lacoste-logo1.png" alt="">
+                <img src="sponsoors/Nestle-Logo.png" alt="">
+                <img src="sponsoors/smirnoff-10.png" alt="">
+                <img src="sponsoors/rolex2.png" alt="">
+                <img src="sponsoors/Subway_logo.png" alt="">
+                <img src="sponsoors/w-mcdonalds.png" alt="">
+                <img src="sponsoors/descarga.png" alt="">
             </div>
+
         </section>
     </main>
     <footer>
@@ -279,17 +373,47 @@
         </p>
 
         <div>
+<<<<<<< HEAD
             <a href="#"><img src="/iconos/facebook.png" alt="icono facebook"></a>
             <a href="#"><img src="/iconos/whatsapp.png" alt="icono whatsapp"></a>
             <a href="#"><img src="/iconos/instagram.png" alt="icono instagram"></a>
+=======
+            <a href="#"><img src="iconos/facebook.png" alt="icono facebook"></a>
+            <a href="#"><img src="iconos/whatsapp.png" alt="icono whatsapp"></a>
+            <a href="#"><img src="iconos/instagram.png" alt="icono instagram"></a>
+>>>>>>> d63088799ea3837455e75fe520d6d37c7dd7c906
 
         </div>
         <p>
             <a href="#">Back to top</a>
         </p>
     </footer>
+<<<<<<< HEAD
 
     <script src="./Formulario.js" type="module"></script>
+=======
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="Pipe/newphotofunction.js"></script>
+    <script src="Pipe/scripts.js"></script>
+    <script src="javascript/Formulario.js" type="module"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+>>>>>>> d63088799ea3837455e75fe520d6d37c7dd7c906
 </body>
 
 </html>

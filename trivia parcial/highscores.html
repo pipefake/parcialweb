@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High Scores</title>
+    <style>
+        li {
+            font-weight: 600 !important;
+            color: #404040 !important;
+        }
+
+        a {
+            background-color: white !important;
+            height: 83px !important;
+            width: 83px !important;
+            bottom: 608px !important;
+            right: 53px !important;
+        }
+
+        img {
+            height: 55px !important;
+            width: auto !important;
+            margin-right: auto !important;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="highscores.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+
+<body>
+    <a class="btn-flotante" href="../index.html">
+        <img src="../resources/left-arrow.png" alt="flecha de volver" style="height: 55px;" _mstalt="262652">
+    </a>
+    <div class="container">
+        <div id="highScores" class="flex-center flex-column">
+            <h1 id="finalScore">Tabla de Puntajes</h1>
+            <ul id="highScoresList" style="display: inline;"></ul>
+            <a href="/" class="btn" style="width: 252px !important;">Volver al inicio<i class="fas fa-home"></i></a>
+
+        </div>
+    </div>
+    <script src="highscores.js"></script>
+</body>
+
+</html>
