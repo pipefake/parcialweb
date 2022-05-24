@@ -1,0 +1,28 @@
+@media screen and (max-width:415px) {
+    main{
+        width: 100%;
+    }
+    h1{
+        
+        line-height: 50px !important;
+    }
+    .contArtista{
+        width: 100% !important;
+        justify-content: center;
+    }
+    .btn-flotante{
+        bottom: 808px !important;
+    right: 13px !important;
+    width: 35px !important;
+    height: 37px !important;
+    }
+    .btn_back{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .tituloArtistas{
+        font-size: 54px !important;
+        padding: 44px 94px;
+    }
+    
+}

@@ -32,41 +32,187 @@
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:415px) {
     section:nth-child(1)>div>h1 {
         line-height: 55px;
         font-size: 52px;
         padding: 5px;
     }
-    .contListas>a{
+
+    body>div {
+        padding: 0 !important;
+        flex-direction: column !important;
+        margin-top: 94px;
+    }
+
+    .formulario {
+        width: 266px;
+    }
+
+    .formulario form {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+    }
+
+    .contListas>a {
         font-size: 12px;
     }
-    .contenedorForm{
-        flex-direction: column;
+
+    input[type="button"] {
+        width: 100% !important;
     }
+
+    .contenedorForm {
+        flex-direction: column;
+        width: 100%;
+    }
+
     .imgResposive {
         padding: 0px;
         width: 126px;
         margin: 0px 146px;
     }
-    .ticket4>h1:nth-child(1){
 
+    .peach {
+        padding: 0 !important;
     }
-    .ticket3>h1:nth-child(1){
+
+    .ticket4>h1:nth-child(1) {}
+
+    .ticket3>h1:nth-child(1) {
         font-size: 39px;
     }
-    .ticket4>h1:nth-child(1){
+
+    .ticket4>h1:nth-child(1) {
         font-size: 26px;
     }
+
     .description {
         flex-direction: column;
         padding: 26px 0px;
         padding: 0px 0px;
     }
 
+    .name,
+    .lastname,
+    .email,
+    .numero {
+
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .form {
+        width: 100%;
+        padding: 0;
+        margin-top: 29px;
+    }
+
+    input {
+        WIDTH: 124PX;
+        height: 19px;
+    }
+
+    .enviar {
+        height: 55px !important;
+        width: 136px !important;
+        font-size: 19px !important;
+    }
+
+    form {
+        width: 79%;
+        padding: 24px;
+        border-radius: 46px;
+        margin: 23px;
+        height: 100%;
+
+    }
+    .justify-center{
+        width: 328px;
+    }
+    .contenedordespon {
+        padding: 27px;
+        margin-top: 44px;
+        background-color: white;
+        border-radius: 50px;
+        width: 284px;
+    }
+    form{
+        flex-direction: column !important;
+        height: auto;
+    }
+    #question {
+        background: #ffffff87;
+        border-radius: 30px;
+        border: 5px solid white;
+    }
+
+    .contenedordespon>img {
+        width: 89px;
+        padding: 7px 8% !important;
+    }
+
+    .subtitulo {
+        font-size: 52px;
+    }
+
+    .sponsors>.subtitulo {
+        font-size: 38px;
+    }
+
+    .sponsors {
+        padding: 31px 0px;
+        padding-bottom: 0;
+    }
+    .hero{
+        margin-top: 139px;
+    }
+    .btn_panel{
+        text-align: center;
+    }
+    main {
+        padding: 0;
+    }
+    .infoexito{
+        font-size: 40px;
+    }
+    .goback{
+        margin-top: 66px;
+    }
+    .contListas {
+        margin-top: 24px;
+    }
+    .tituloArtistas{
+        line-height: 58px;
+    }
+    body {
+        background-repeat: repeat;
+    }
+
+    form>h1 {
+        font-size: 33px;
+    }
+
+    label {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    #Ubicacion,
+    #Boletas {
+        WIDTH: 150PX;
+        height: 44px;
+    }
+
     .info_description {
         width: auto;
         height: auto;
+        margin-top: 27px;
+    }
+
+    .prices {
+        padding: 0;
     }
 
     iframe {
@@ -84,60 +230,132 @@
         margin-top: 3px;
     }
 
+    .iconos {
+        width: 100%;
+    }
+
     section:nth-child(2)>div>h1 {
         font-size: 54px;
         line-height: 42px;
     }
-    td{
+
+    td {
         padding: 0;
         font-size: 11px;
     }
-    th{
-        padding: 0;
+
+    th {
+        padding: 7px;
         font-size: 9px;
         border-radius: 10px 10px 0px 0px;
     }
-    table{
+
+    table {
         margin-top: 25px;
         padding: 0 46px;
     }
-    .schedules{
+
+    .schedules {
         padding: 29px 0px;
     }
-    .contListas>a{
-        background: rgb(230, 230, 230);
-    padding: 9px;
-    border-radius: 14px;
-    font-family: 'Poppins', sans-serif;
-    margin: 4px;
-    color: #ffde17;
-    text-decoration: none;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-size: 10px;
+
+    .contListas>a {
+        background: rgb(255, 255, 255);
+        padding: 9px;
+        border-radius: 14px;
+        font-family: 'Poppins', sans-serif;
+        margin: 4px;
+        color: #ffde17;
+        text-decoration: none;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        font-size: 12px;
     }
-    .contents{
+
+    .contents {
         padding: 0;
     }
-    .items_canciones{
-        flex-direction: column;
-    width: 325px;
+
+    .subtitulo2 {
+        width: 100%;
     }
-    .animacionweb{
+
+    .CP {
+        background-color: #ffde17;
+
+    }
+
+    .CP:active,
+    .CP:hover,
+    .CP::placeholder {
+        background-color: #ffde17 !important;
+    }
+
+    input,
+    input:active {
+        WIDTH: 124PX;
+        height: 19px;
+    }
+
+    .items_canciones {
+        flex-direction: column;
+        width: 325px;
+    }
+
+    .animacionweb {
         width: 20em;
         margin: 0px 0px 0px -39px;
     }
-    .contenedortickets{
+
+    .contenedortickets {
         width: 414px;
     }
-    .tickets{
+
+    .tickets {
         width: 170px;
         height: 88px;
     }
-    .ticket2>h1:nth-child(1){
+
+    .ticket2>h1:nth-child(1) {
         font-size: 29px;
     }
-    .ticket1>h1:nth-child(1){
-        font-size:19px;
+
+    .ticket1>h1:nth-child(1) {
+        font-size: 19px;
+    }
+
+    .ticket1>h1:nth-child(2):hover {
+        position: absolute;
+        z-index: 3;
+        color: #d12828;
+        background-color: #ef5750;
+        font-size: 18px;
+    }
+
+    .ticket2>h1:nth-child(2):hover {
+        position: absolute;
+        z-index: 3;
+        color: #44c0a8;
+        background-color: #76cebd;
+        ;
+        font-size: 20px;
+    }
+
+    .ticket3>h1:nth-child(2):hover {
+        position: absolute;
+        z-index: 3;
+        color: #4c9354;
+        background-color: #79b182;
+        ;
+        font-size: 20px;
+    }
+
+    .ticket4>h1:nth-child(2):hover {
+        position: absolute;
+        z-index: 3;
+        color: #e7ae46;
+        background-color: #fed57d;
+        ;
+        font-size: 20px;
     }
 
 }

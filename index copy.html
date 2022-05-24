@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/ResponsiveiPad.css ">
+    <link rel="stylesheet" href="css/responsiveiPhoneX.css">
     <title>Vista previa de imágenes</title>
 </head>
 
@@ -55,24 +56,230 @@
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.1947348808744!2d-76.53583027730087!3d3.3019290899076443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e309fc1dc0a6435%3A0x89168a65b1f5a057!2sAutocine%20royal%20films!5e0!3m2!1ses!2sco!4v1646162054918!5m2!1ses!2sco"
                     width="450" height="450" allowfullscreen="" loading="lazy"></iframe></div>
         </section>      
-        
-        
-    </main>
-    <footer>
+        <section id="schedules" class="schedules">
+            <h1 class="subtitulo">Artistas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            8:00 pm a 10:00 pm
+                        </th>
+                        <th>
+                            10:00 pm a 12:00 pm
+                        </th>
+                        <th>
+                            12:00 pm a 2:00 am
+                        </th>
+                        <th>
+                            2:00 am a 4:00 am
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Maluma
+                        </td>
+                        <td>
+                            Bad Bunny
+                        </td>
+                        <td>
+                            Karol G
+                        </td>
+                        <td>
+                            Rauw Alejandro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            J Balvin
+                        </td>
+                        <td>
+                            Daddy Yankee
+                        </td>
+                        <td>
+                            Don Omar
+                        </td>
+                        <td>
+                            Myke Towers
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nicky Jam
+                        </td>
+                        <td>
+                            Becky G
+                        </td>
+                        <td>
+                            Jowell & Randy
+                        </td>
+                        <td>
+                            Ozuna
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Arcangel
+                        </td>
+                        <td>
+                            Ñejo & Dalmata
+                        </td>
+                        <td>
+                            Anitta
+                        </td>
+                        <td>
+                            Anuel AA
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="contListas">
+                <a href="pages/artistas.html">Ver artistas</a>
+                <a href="pages/galeria.html">Ver galeria</a>
+            </div>
+        </section>
+        <section id="contents" class="contents">
+            <h1 class="subtitulo">Canciones</h1>
+            <div class="items_canciones">
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/4nxb1S6ezSGoRKvSqxdBmM?utm_source=generator"
+                    width="100%" height="380" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <div class="animacionweb">
 
-        <p>Copyright by <a href="https://github.com/pipefake">@Pipefake</a>.
-        </p>
+                </div>
+            </div>
+        </section>
+        <section id="prices" class="prices">
+            <h1 class="subtitulo">Precios</h1>
+            <div class="contenedortickets">
+                <div class="ticket1 tickets">
+                    <h1>Diamante</h1>
+                    <h1>$2.000.000</h1>
+                </div>
+                <div class="ticket2 tickets">
+                    <h1>Platino</h1>
+                    <h1>$1.200.000</h1>
+                </div>
 
-        <div>
-            <a href="#"><img src="iconos/facebook.png" alt="icono facebook"></a>
-            <a href="#"><img src="iconos/whatsapp.png" alt="icono whatsapp"></a>
-            <a href="#"><img src="iconos/instagram.png" alt="icono instagram"></a>
+                <div class="ticket3 tickets">
+                    <h1>Oro</h1>
+                    <h1>$800.000</h1>
+                </div>
+                <div class="ticket4 tickets">
+                    <h1>Bronce</h1>
+                    <h1>$400.000</h1>
+                </div>
+                <div class="contListas">
+                    <a class="trivia" href="trivia parcial/index.html">Participa en la trivia para ganar un
+                        descuento</a>
+                </div>
+            </div>
+        </section>
+        <section id="form" class="form">
+            <h1 class="subtitulo">Comprar boletas</h1>
+            <div class="contenedorForm">
+                
+                <form action="">
+                    <h1>Calcular Precio</h1>
+                    <div class="name">
+                        <label for="Ubicacion">Elige la Ubicacion: </label>
+                        <select name="Ubicacion" id="Ubicacion" class="CP">
+                            <option value="...">...</option>
+                            <option value="Diamante">Diamante</option>
+                            <option value="Platino">Platino</option>
+                            <option value="Oro">Oro</option>
+                            <option value="Bronce">Bronce</option>
+                        </select>
+                    </div>
 
+                    <div class="name">
+                        <label for="Boletas">Numero de boletas: </label>
+                        <select name="Boletas" id="Boletas" class="CP">
+                            <option value="...">...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                    </div>
+
+                    <div class="name">
+                        <label for="Descuento">Codigo de descuento:</label>
+                        <input type="text" name="Descuento" id="Descuento" placeholder="Escribe tu codigo de descuento"
+                            class="CP" required>
+                    </div>
+
+
+                    <h3 class="subtitulo2" id="NotificacionDesc"></h3>
+                    <H3 class="subtitulo2" id="CPB" class="show"></H3>
+            <h3 class="subtitulo2" id="CT" class="show"></h3>
+            <div class="send">
+                <input class="enviar" type="button" value="Calcular" id="Botoncito">
+            </div>
+            </form>
+            <form action="formSucess.html">
+                <h1>Enviar Información</h1>
+                <div class="name">
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="pepito" required>
+                </div>
+                <div class="lastname">
+                    <label for="lastname">Apellido:</label>
+                    <input type="text" placeholder="Perez" required>
+                </div>
+                <div class="email">
+                    <label for="Email">Email:</label>
+                    <input type="email" placeholder="example@mail.com" required>
+                </div>
+                <div class="numero">
+                    <label for="Numero">Telefono:
+                    </label>
+                    <input type="number" placeholder="1" required min="0" max="3999999999"
+                        title="El formato debe coincidir con 3 letras mayúsculas y 4 números.">
+                </div>
+                    <input class="enviar" type="submit" value="Enviar" >
+                
+            </form>
         </div>
-        <p>
-            <a href="#">Back to top</a>
-        </p>
-    </footer>
+            </div>
+        </section>
+        <section id="sponsors" class="sponsors">
+            <h1 class="subtitulo">Patrocinadores: </h1>
+            <div class="contenedordespon">
+                <img src="sponsoors/1280px-Falabella.svg.png" alt="">
+                <img src="sponsoors/Adidas_logo.png" alt="">
+                <img src="sponsoors/cocacola.png" alt="">
+                <img src="sponsoors/lacoste-logo1.png" alt="">
+                <img src="sponsoors/Nestle-Logo.png" alt="">
+                <img src="sponsoors/smirnoff-10.png" alt="">
+                <img src="sponsoors/rolex2.png" alt="">
+                <img src="sponsoors/Subway_logo.png" alt="">
+                <img src="sponsoors/w-mcdonalds.png" alt="">
+                <img src="sponsoors/descarga.png" alt="">
+            </div>
+
+        </section>
+        <footer>
+
+            <p>Copyright by <a href="https://github.com/pipefake">@Pipefake</a>.
+            </p>
+    
+            <div>
+                <a href="#"><img src="iconos/facebook.png" alt="icono facebook"></a>
+                <a href="#"><img src="iconos/whatsapp.png" alt="icono whatsapp"></a>
+                <a href="#"><img src="iconos/instagram.png" alt="icono instagram"></a>
+    
+            </div>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </footer>
+    </main>
+    
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
         integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
