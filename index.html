@@ -26,20 +26,22 @@
         <img src="resources/in.png" alt="imagen inicio">
     </a>
     <header>
-        <nav>
+        <span class="menu-mobile-icon"></span>
+        <span class="menu-exit-mobile-icon"></span>
+        <nav class="nav-container">
             <ul class="topnav" id="myTopnav">
-                <li><a class="active" href="#">Inicio</a></li>
-                <li><a class="" href="#description">Descripción</a></li>
-                <li> <a href="#schedules">Programación</a> </li>
-                <li> <a href="#contents">Canciones</a> </li>
-                <li> <a href="#prices">Comprar</a> </li>
-                <li> <a href="#form">Contactenos</a> </li>
-                <li> <a href="#sponsors">Patrocinadores</a> </li>
-                <li>
+                <li class="li-item"><a class="active" href="#">Inicio</a></li>
+                <li class="li-item"><a class="" href="#description">Descripción</a></li>
+                <li class="li-item"> <a href="#schedules">Programación</a> </li>
+                <li class="li-item"> <a href="#contents">Canciones</a> </li>
+                <li class="li-item"> <a href="#prices">Comprar</a> </li>
+                <li class="li-item"> <a href="#form">Contactenos</a> </li>
+                <li class="li-item"> <a href="#sponsors">Patrocinadores</a> </li>
+                <!-- <li>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
                       </a>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </header>
@@ -294,6 +296,7 @@
             <a href="#">Back to top</a>
         </p>
     </footer>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
         integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
@@ -305,6 +308,7 @@
     <script src="Pipe/newphotofunction.js"></script>
     <script src="Pipe/scripts.js"></script>
     <script src="javascript/Formulario.js" type="module"></script>
+    <script src="./javascript/functions.js"></script>
     <script>
         function myFunction() {
           var x = document.getElementById("myTopnav");
@@ -314,6 +318,7 @@
             x.className = "topnav";
           }
         }
+
         </script>
 </body>
 
