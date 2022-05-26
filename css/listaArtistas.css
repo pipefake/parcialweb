@@ -69,7 +69,7 @@ height: 242px !important;
 }
 
 body {
-    background-image: url(/resources/fondo-02.jpg);
+    background-image: url(../resources/fondo-02.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     cursor: url(/cursor-04.png), auto;
@@ -78,4 +78,9 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+@media screen and (max-width:415px) {
+    body {
+        background-image: url(../resources/fondo-iPhoneX-07.jpg);
+    }
 }

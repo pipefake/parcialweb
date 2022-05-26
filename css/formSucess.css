@@ -16,6 +16,11 @@ body{
     align-items: center;
     padding: 221px 0;
 }
+@media screen and (max-width:415px) {
+    body {
+        background-image: url(../resources/fondo-iPhoneX-07.jpg);
+    }
+}
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
