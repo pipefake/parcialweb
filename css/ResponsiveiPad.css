@@ -1,4 +1,4 @@
-@media screen and (max-width:1180px) {
+@media screen and (min-width:1180px) {
     section>div>img{
         padding: 0px 400px 0px 400px;
     }
@@ -14,7 +14,7 @@
     
     .description{
         justify-content: space-around;
-        padding: 314px 0px 182px 0px;
+        padding: 220px 0px 182px 0px;
         width: 90%;
     }
     .iconos{
@@ -28,14 +28,20 @@
         padding: 5px 10px 10px 01px;
     }
     section>div{
-        justify-content: center;    
+        justify-content: center;
     }
     .subtitulo{
         padding: 0px 0px 50px 0px;
         font-size: 78px;
     }
     td{
-        padding: 17px 57px;
+        padding: 33px 57px;
+    }
+    .hero{
+        margin: 112px 0;
+    }
+    .schedules{
+        
     }
     table{
         padding: 0px 0px;
@@ -72,12 +78,14 @@
     }
     body{
         background-repeat: repeat;
+        background-image: url(../resources/fondo-iPad-07.jpg);
     }
     
     form{
         width: 90%;
         flex-direction: column;
         height: auto;
+        padding: 19px;
     }
     .btn-flotante{
         width: 87px;
@@ -93,7 +101,132 @@
         width: 100%;
     }
     iframe{
+        width: 603px;
+    }
+    .sponsors{
+        padding: 211px 0px;
+    }
+    .form{
+        padding: 146px 0px;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 138px;
+    background-image: url(../resources/nubes.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+}
+
+/* nav {
+    background-color: blue;
+}
+
+ul {
+    background-color: rgba(255, 0, 0, 0.455);
+
+} */
+
+@media screen and (max-width: 1180px) {
+    body {
         width: 100%;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        display: fixed;
+    }
+
+    .menu-mobile-icon {
+        display: block;
+        z-index: 77777;
+        position: fixed;
+        width: 100px;
+        height: 86px;
+        bottom: 737px !important;
+        right: 1079px !important;
+        background-image: url('../resources/menu-regular-108.png');
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+    }
+
+    .menu-exit-mobile-icon {
+        z-index: 55;
+        position: fixed;
+        display: none;
+        width: 101px;
+        height: 101px;
+        bottom: 722px !important;
+        right: 1079px !important;ant;
+        background-image: url('../resources/x-regular-108.png');
+    }
+
+    nav{
+        width: 100%;
+        height: 100vh;
+        opacity: 1;
+        z-index: -1;
+        transform: translateX(-1247px);
+    }
+
+    .show-nav {
+        animation: fade-in 0.5s forwards;
+    }
+
+    .hide-nav {
+        animation: hide-nav 0.5s forwards;
+    }
+
+    @keyframes fade-in {
+        0% {
+            display: none;
+            opacity: 0;
+            transform: translateX(-400px);
+        }
+        100% {
+            display: block;
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    @keyframes hide-nav {
+        0% {
+            display: block;
+            opacity: 1;
+            transform: translateX(0px);
+        }
+        100% {
+
+            display: none;
+            opacity: 0;
+            transform: translateX(-1247px);
+        }
+    }
+
+    ul {
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 102vh;
+        position: fixed;
+        background-color: rgb(255 255 255);
     }
 }
 
