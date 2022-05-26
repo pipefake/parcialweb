@@ -1,4 +1,4 @@
-@media screen and (min-width:1180px) {
+@media screen and (max-width:1180px) {
     section>div>img{
         padding: 0px 400px 0px 400px;
     }
@@ -14,8 +14,8 @@
     
     .description{
         justify-content: space-around;
-        padding: 220px 0px 182px 0px;
-        width: 90%;
+        padding: 218px 0px 178px 0px;
+        width: 89%;
     }
     .iconos{
         width: 500px;
@@ -88,7 +88,11 @@
         padding: 19px;
     }
     .btn-flotante{
-        width: 87px;
+        width: auto;
+        height: auto;
+        padding: 14px;
+        bottom: 710px;
+        right: 18px;
     }
     a>img{
         width: 57px !important;
@@ -101,7 +105,7 @@
         width: 100%;
     }
     iframe{
-        width: 603px;
+        width: 357px;
     }
     .sponsors{
         padding: 211px 0px;
@@ -173,12 +177,15 @@ ul {
         right: 1079px !important;ant;
         background-image: url('../resources/x-regular-108.png');
     }
-
+    .contArtista {
+        
+        width: 1074px;
+    }
     nav{
         width: 100%;
         height: 100vh;
         opacity: 1;
-        z-index: -1;
+        z-index: 49;
         transform: translateX(-1247px);
     }
 
